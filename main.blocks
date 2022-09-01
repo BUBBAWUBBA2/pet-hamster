@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="rU4[:FmkTfr5@oP5$E#3" x="-1725" y="-118"><statement name="HANDLER"><block type="device_show_leds" id="EAV7ADarVCQCBdf!Yo8="><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # . # # 
+        . # # # # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="w9+fG|,V:IWh5dl6-W2$"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # . # # 
+        . # # # # 
+        # . . # .
+        `</field><next><block type="device_show_leds" id="HI}.O$;p?Q0DD=[(4N#z"><field name="LEDS">`
+        . . . . . 
+        # # # . . 
+        # . # # . 
+        # # # # . 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="Lz,n8cKrQt_IRy6V-o%k"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        # # . # . 
+        # # # # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="c|d7V2h5p!,Im{.76cqV"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . # # # # 
+        . # . # .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="7icWi+qX:f@hI3xaMUh0" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="Zrl9:qk;Y=Mog%XqOrsp"><field name="i">IconNames.Sad</field><next><block type="SoundExpression_playUntilDone" id="]8Yb/?*[+4b}E^i`s|=p"><field name="this">soundExpression.sad</field><next><block type="basic_show_icon" id="=C2UjNq((A48)re/{IQd"><field name="i">IconNames.Asleep</field></block></next></block></next></block></statement></block><block type="input_logo_event" id="l-w{XeIPSy_UEVM*oa~f" x="-6" y="267"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="=24ps(zvc0ZhDd_GwSMW"><field name="i">IconNames.Happy</field><next><block type="SoundExpression_playUntilDone" id="xDZ|vW91$#3gw0Yv|^Cu"><field name="this">soundExpression.giggle</field><next><block type="basic_show_icon" id="ze.:BlK/Al0xoKbLr@}!"><field name="i">IconNames.Asleep</field></block></next></block></next></block></statement></block><block type="pxt-on-start" id="H,t*A8]W/lr|+j)_5am`" disabled="true" x="15" y="538"><statement name="HANDLER"><block type="basic_show_icon" id="/#jy{n}OrAyFy9$~zt@J" disabled="true"><field name="i">IconNames.Asleep</field></block></statement></block></xml>
